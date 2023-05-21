@@ -1,0 +1,13 @@
+*{padding: 0;
+  margin: 0 ;
+} .nine{text-align:center} .photo{position:absolute; right:1%;border:3px rgb(194, 80, 9) solid }
+.heaven{text-align:right; padding-right: 5px; } 
+.test1{display:inline-block; width:40%; background:greenyellow;}
+@media screen and (max-width:450px) and (max-height:900px) and (-webkit-device-pixel-ratio:3) and (orientation: portrait ) and (orientation: landscape) {
+.test1{ width: 100%; display:block; background-color:
+    rgb(20, 252, 213);} body{background:red}
+ .photo{display:none} .heaven{display:none}
+} 
+@media screen and (min-width:601px) and (max-width:1290px){ body{background: rgb(255, 255, 255) } 
+.nine{ display:none} 
+}
